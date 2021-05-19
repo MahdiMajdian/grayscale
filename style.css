@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	/* overflow-x: hidden; */
+}
+.text-p{
+	color: #63a29d;
+}
+.header-image {
+	background: url("assets/img/bg-masthead.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.content {
+	background: linear-gradient(180deg, #0000003b, rgba(0, 0, 0, 0.756));
+}
+.content > h1 {
+	font-size: 8rem;
+}
+.about {
+	width: 100%;
+	position: relative;
+	background: linear-gradient(180deg, #000 0%, #3a3a3a 100%);
+}
+.about > .container {
+	padding-top: 25vh;
+}
+.about img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.project1 {
+}
+.project2 {
+}
+.shore-img {
+	position: relative;
+}
+.line {
+	position: absolute;
+	width: 8px;
+	height: 50%;
+	margin: auto 0;
+	background-color: #63a29d;
+	right: -8px;
+	top: 0;
+	bottom: 0;
+}
+.tile-1 {
+	background: url(assets/img/demo-image-01.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.tile-2 {
+	background: #000;
+}
+.tile-3 {
+	background: #000;
+}
+.tile-4 {
+	background: url(assets/img/demo-image-02.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.text-line {
+	height: 5px;
+	width: 25%;
+	background: #63a29d;
+}
+.contact {
+	position: relative;
+	width: 100%;
+	height: 150vh;
+	background-color: #000;
+}
+.contact-box{
+	height: 12rem;
+	border-radius: 0.2rem;
+	padding: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.contact-bg1{
+	background-image: url(assets/img/demo-image-02.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.contact-bg2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 60%, #000 80%, #000000 100%);
+	
+}
+.subscribe{
+	z-index: 5;
+}
+.sub-input {
+	background-color: white;
+	height: 4rem;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+.sub-submit {
+	height: 4rem;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	background-color: #63a29d;
+	border: none;
+	border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+	.header {
+		height: 100vh;
+	}
+	.about div {
+		height: 100vh;
+	}
+	.project1 {
+		height: 80vh;
+	}
+	.project2 {
+		height: 80vh;
+	}
+}
