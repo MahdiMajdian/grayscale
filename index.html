@@ -13,7 +13,7 @@
 		<header class="header">
 			<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
 				<div class="container">
-					<a class="navbar-brand" href="#">Web Zone</a>
+					<a class="navbar-brand" href="#">Start Bootstrap</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -21,14 +21,14 @@
 					<div class="collapse navbar-collapse navbar-light" id="navbarNav">
 						<div class="mx-auto"></div>
 						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link" href="#">Home</a>
-							</li>
-							<li class="nav-item">
+							<li class="nav-item mx-4">
 								<a class="nav-link" href="#">About</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Blog</a>
+							<li class="nav-item mx-4">
+								<a class="nav-link" href="#">Projects</a>
+							</li>
+							<li class="nav-item mx-4">
+								<a class="nav-link" href="#">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -36,9 +36,9 @@
 			</nav>
 			<div class="header-image w-100 vh-100 d-flex justify-content-center align-items-center">
 				<div class="content text-center text-white w-100 h-100 d-flex justify-content-center align-items-center flex-column">
-					<h1>GRAYSCALE</h1>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
-					<button class="btn btn-success">Get Started</button>
+					<p class="m-0 p-0">GRAYSCALE</p>
+					<p class='text-white-50 m-0 p-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+					<button class="btn btn-p text-white mt-5">Get Started</button>
 				</div>
 			</div>
 		</header>
@@ -110,32 +110,45 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid">
+			<div class="container-fluid bg-black">
 				<div class="w-100 d-flex justify-content-center vh-50 row">
 					<div class="contact-box text-dark mx-2 col-12 col-md-3">
-						<i class="fa fa-map text-dark text-p"></i>
-						<h5 class="mt-2">Address</h5>
+						<i class="fa fa-map text-p"></i>
+						<p class="mt-2">Address</p>
 						<div class="text-line my-3"></div>
 						<p>23 Baker street, Londen, UK</p>
 					</div>
 					<div class="contact-box text-dark mx-2 col-12 col-md-3">
-						<i class="fa fa-envelope text-dark text-p"></i>
-						<h5 class="mt-2">Email</h5>
+						<i class="fa fa-envelope text-p"></i>
+						<p class="mt-2">Email</p>
 						<div class="text-line my-3"></div>
 						<p>hello@yourdomain.com</p>
 					</div>
 					<div class="contact-box text-dark mx-2 col-12 col-md-3">
-						<i class="fa fa-mobile text-dark text-p"></i>
-						<h5 class="mt-2">Phone</h5>
-						<div class="text-line my-3"></div>
+						<i class="fa fa-mobile text-p"></i>
+						<p class="mt-2">Phone</p>
+						<div class="text-line my-2"></div>
 						<p>-1 (555) 902-555</p>
 					</div>
 				</div>
+
+				<div class="mt-5 d-flex justify-content-center">
+					<div class="social m-2">
+						<i class="fa fa-twitter"></i>
+					</div>
+					<div class="social m-2">
+						<i class="fa fa-facebook"></i>
+					</div>
+					<div class="social m-2">
+						<i class="fa fa-github"></i>
+					</div>
+				</div>
+				<p class="text-center text-white-50 mt-5">Copyright © Your Website 2020</p>
 			</div>
 		</section>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-		<!-- <script>
+		<script>
 			const nav = document.querySelector("nav")
 			window.addEventListener("scroll", function () {
 				if (window.pageYOffset > 100) {
@@ -146,6 +159,6 @@
 					nav.classList.add("navbar-dark")
 				}
 			})
-		</script> -->
+		</script>
 	</body>
 </html>

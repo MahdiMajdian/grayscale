@@ -9,8 +9,16 @@ body {
 	height: 100%;
 	/* overflow-x: hidden; */
 }
-.text-p{
+.text-p {
 	color: #63a29d;
+}
+.bg-black{
+	background-color: #000;
+}
+.btn-p{
+	background-color: #63a29d;
+	border-radius: 2px;
+	padding: 1rem 2rem;
 }
 .header-image {
 	background: url("assets/img/bg-masthead.jpg");
@@ -20,8 +28,15 @@ body {
 .content {
 	background: linear-gradient(180deg, #0000003b, rgba(0, 0, 0, 0.756));
 }
-.content > h1 {
-	font-size: 8rem;
+.content > p:nth-child(1) {
+	font-size: 7rem;
+	background-color: #fff;
+    background-image: linear-gradient(0deg, #6e6e6e, #ffffff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 .about {
 	width: 100%;
@@ -37,10 +52,6 @@ body {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-}
-.project1 {
-}
-.project2 {
 }
 .shore-img {
 	position: relative;
@@ -82,7 +93,7 @@ body {
 	height: 150vh;
 	background-color: #000;
 }
-.contact-box{
+.contact-box {
 	height: 12rem;
 	border-radius: 0.2rem;
 	padding: 0 auto;
@@ -92,7 +103,11 @@ body {
 	justify-content: center;
 	background-color: white;
 }
-.contact-bg1{
+.contact-box p[class="mt-2"] {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+.contact-bg1 {
 	background-image: url(assets/img/demo-image-02.jpg);
 	background-position: center;
 	background-size: cover;
@@ -104,7 +119,7 @@ body {
 	right: 0;
 	bottom: 0;
 }
-.contact-bg2{
+.contact-bg2 {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -113,9 +128,9 @@ body {
 	width: 100%;
 	height: 100vh;
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 60%, #000 80%, #000000 100%);
-	
 }
-.subscribe{
+.subscribe {
+	margin-top: 15vh;
 	z-index: 5;
 }
 .sub-input {
@@ -132,6 +147,19 @@ body {
 	background-color: #63a29d;
 	border: none;
 	border-radius: 5px;
+}
+.social {
+	width: 3rem;
+	height: 3rem;
+	background-color: #1a1a1a;
+	border-radius: 50%;
+	display: grid;
+	place-content: center;
+	color: #5d5d5d;
+}
+.social:hover{
+	color: #aaaaaa;
+	background-color: #494949;
 }
 @media screen and (min-width: 768px) {
 	.header {
